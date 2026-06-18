@@ -1,0 +1,10 @@
+app.yourdomain.com {
+	import default_headers
+	reverse_proxy 192.168.1.100:3000
+}
+
+static.yourdomain.com {
+	root * /var/www/static
+	encode gzip zstd
+	file_server
+}

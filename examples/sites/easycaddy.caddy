@@ -1,0 +1,4 @@
+caddy.yourdomain.com {
+	import default_headers
+	reverse_proxy localhost:8091
+}

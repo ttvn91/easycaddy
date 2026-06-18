@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.sh text eol=lf
+*.ts text eol=lf
+*.caddy text eol=lf
+Caddyfile text eol=lf
+*.png binary
+*.ico binary
+*.jpg binary
